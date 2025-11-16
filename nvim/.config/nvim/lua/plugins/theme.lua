@@ -1,0 +1,1 @@
+/home/thiiz/.config/omarchy/current/theme/neovim.lua
