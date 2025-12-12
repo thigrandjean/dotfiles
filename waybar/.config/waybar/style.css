@@ -1,4 +1,5 @@
 @import "../omarchy/current/theme/waybar.css";
+@define-color accent #FFC107;
 
 * {
   border: none;
@@ -53,7 +54,7 @@
 }
 
 #workspaces button.active {
-  background-color: @foreground;
+  background-color: @accent;
   color: @background;
 }
 
@@ -107,8 +108,9 @@ tooltip {
   margin-left: 8.75px;
   border-radius: 30px;
   padding: 0px 18px;
-  background-color: @background;
+  background-color: @accent;
   font-size: 14px;
+  color: @background;
 }
 
 .hidden {
