@@ -54,7 +54,7 @@
 }
 
 #workspaces button.active {
-  background-color: @accent;
+  background-color: @foreground;
   color: @background;
 }
 
