@@ -109,7 +109,7 @@ tooltip {
   margin-left: 8.75px;
   border-radius: 30px;
   padding: 0px 18px;
-  background-color: @accent;
+  background-color: @foreground;
   font-size: 14px;
   color: @background;
 }
