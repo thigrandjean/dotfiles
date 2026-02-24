@@ -62,6 +62,9 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/.local/share/omarchy/bin:
 alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
+alias oo='cd $HOME/Obsidian/thiiz-vault/'
+alias nvc='cd $HOME/dotfiles/nvim/.config/nvim/ && vim .'
+alias lg=lazygit
 
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
@@ -72,3 +75,5 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 ### End of Zinit's installer chunk
+#
+#
