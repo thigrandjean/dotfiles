@@ -77,3 +77,11 @@ zinit light-mode for \
 ### End of Zinit's installer chunk
 #
 #
+
+# ROCm configuration for RDNA1 (RX 5700 XT)
+export ROC_ENABLE_PRE_VEGA=1
+export ROC_ENABLE_LARGE_ACCESS=1
+export HSA_OVERRIDE_GFX_VERSION=10.1.0
+export GPU_MAX_HEAP_SIZE=100
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_USE_SYNC_OBJECTS=1
